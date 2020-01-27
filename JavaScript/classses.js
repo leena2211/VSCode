@@ -15,7 +15,8 @@ class Employee{
 }
 
 let emp1 = new Employee();
+let emp2 = new Employee();
 emp1.setDetails("John",1001);
-
+emp2.setDetails("Jony",1002);
 console.log(emp1.getName());
 console.log(emp1.getId());
